@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blog Post - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+<!--   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-12">
+
+        <!-- Title -->
+        <h4 class="mt-4">Nuôi con không phải là cuộc thi cân nặng giữa các mẹ</h4>
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on January 1, 2019 at 12:00 PM</p>
+
+        <hr>
+
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="http://channel.mediacdn.vn/thumb_w/640/prupload/439/2018/04/img20180426194621524.jpg" alt="">
+
+        <hr>
+
+        <!-- Post Content -->
+        <p>Câu hỏi quen thuộc giữa các mẹ khi gặp nhau là: “Con chị bao nhiêu tháng, được bao nhiêu kg rồi?”. Có vẻ như chị em đều vô tình tham gia cuộc thi “kilôgram” giữa các mẹ.</p>
+
+        <p><b>Thước đo phát triển không phải chỉ ở cân nặng</b></p>
+        
+
+        <p>Các mẹ không nên quên điều này, ngoài cân nặng, còn có chiều cao, khả năng miễn dịch, sự phát triển của hệ tiêu hóa, trí thông minh, và vô số chỉ tiêu khác để đánh giá một đứa trẻ có phát triển toàn diện hay không. Đừng để cân nặng trở thành áp lực cho cả 2 mẹ con, miễn con khỏe mạnh, phát triển đều, luôn vui vẻ khi ngồi vào bàn ăn đã là thành công rồi.</p>
+
+     <!--    <blockquote class="blockquote">
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in
+            <cite title="Source Title">Source Title</cite>
+          </footer>
+        </blockquote> -->
+
+        <hr>
+
+        <!-- Comments Form -->
+        <div class="card my-4">
+          <h6 class="card-header">Leave a Comment:</h6>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="3" id="input-comment"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary" onclick="Comment.sendComment()">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Single Comment -->
+        <!--<div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h6 class="mt-0">Tuấn Vũ</h6>
+            Tuy chưa có con nhưng tôi sẽ chia sẻ cho vợ tương lai của tôi những điều này
+          </div>
+        </div>-->
+
+        <div class="comment-list">
+            <div class="media mb-4">
+                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                <div class="media-body">
+                    <h6 class="mt-0">Tuấn Vũ</h6>
+                    Tuy chưa có con nhưng tôi sẽ chia sẻ cho vợ tương lai của tôi những điều này
+                </div>
+            </div>
+        </div>
+
+        <!-- Comment with nested comments -->
+        <!--<div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h6 class="mt-0">Lan Hương</h6>
+            Bải viết rất hay và bổ ích
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+              <div class="media-body">
+                <h6 class="mt-0">Mai mít</h6>
+                Em sẽ chú ý chăm sóc dinh dưỡng cho con của mình
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+      </div>
+
+
+  <!-- /.container -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+      var Comment = new function () {
+        var self = this;
+
+        var keyData = '_asdfasdf_';
+        var commentContainer = document.querySelector('.comment-list');
+
+        self.sendComment = function () {
+          var content = document.querySelector('#input-comment').value;
+          if (content == '' || content == null || content == undefined) return;
+          var data = {
+            content: content
+          };
+
+          addCommentList(data);
+
+          return insertComment(data);
+        };
+
+        self.load = function () {
+          var items = getCommentList();
+          if (!items.length) return;
+          for (let index = 0; index < items.length; index++) {
+            const item = items[index];
+            insertComment(item);
+          }
+          return true;
+        };
+
+        var insertComment = function (data) {
+          if (!data.content) return false;
+          var newComment = _DOMParser('<div class="media mb-4">' +
+            '<img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50">' +
+            '<div class="media-body">' +
+            '<h6 class="mt-0">Tuấn Vũ</h6>' +
+            data.content +
+            '</div>' +
+            '</div>');
+          commentContainer.insertBefore(newComment, commentContainer.firstChild);
+          return true;
+        };
+
+        function _DOMParser(htmlStr) {
+          var fragment = document.createDocumentFragment();
+          var divTemp = document.createElement('div');
+          divTemp.innerHTML = htmlStr;
+          while (divTemp.firstChild) fragment.appendChild(divTemp.firstChild);
+          return fragment;
+        }
+
+        function getCommentList() {
+          if (!localStorage[keyData]) localStorage.setItem(keyData, JSON.stringify([]));
+          return JSON.parse(localStorage.getItem(keyData));
+        }
+
+        function addCommentList(data) {
+          var all = getCommentList();
+          all.push(data);
+          localStorage.setItem(keyData, JSON.stringify(all));
+          return true;
+        }
+
+      }();
+      Comment.load();
+    </script>
+</body>
+
+</html>
