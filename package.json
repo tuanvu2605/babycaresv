@@ -28,7 +28,7 @@
     "passport-facebook": "^2.1.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "svg-mesh-3d": "^1.1.0",
     "util": "^0.10.4"
   },
